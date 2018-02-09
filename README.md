@@ -1,5 +1,5 @@
-# perl 5.26.1
+# Perl
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/perl-5.26.1.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/perl.svg?branch=master)
 
-Base docker-image for Perl test-frameworks.
+Version=5.26.1

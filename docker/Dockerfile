@@ -12,3 +12,6 @@ RUN apt-get update && apt-get install --yes coreutils bash tar file
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 LABEL maintainer=jon@jaggersoft.com
+
+RUN apt-get update \
+ && apt-get install --yes perl

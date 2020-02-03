@@ -1,7 +1,7 @@
 #!/bin/bash -Eeu
 
 readonly MY_DIR="$( cd "$( dirname "${0}" )" && pwd )"
-readonly EXPECTED=5.26.1
+readonly EXPECTED=5.30.1
 readonly ACTUAL=$(docker run --rm -it cyberdojofoundation/perl sh -c 'perl --version')
 
 if echo "${ACTUAL}" | grep -q "${EXPECTED}"; then

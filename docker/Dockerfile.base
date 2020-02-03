@@ -1,4 +1,2 @@
-FROM cyberdojofoundation/ubuntu-build-essential:18.04
+FROM perl:latest
 LABEL maintainer=jon@jaggersoft.com
-
-RUN apt-get install --yes perl

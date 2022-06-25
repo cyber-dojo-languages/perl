@@ -1,2 +1,2 @@
-FROM perl:5.32-slim-buster
+FROM perl:slim
 LABEL maintainer=jon@jaggersoft.com

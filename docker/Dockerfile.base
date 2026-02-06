@@ -1,2 +1,2 @@
-FROM perl:slim
+FROM perl:stable
 LABEL maintainer=jon@jaggersoft.com
